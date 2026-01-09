@@ -1176,6 +1176,11 @@ video {
     var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+.bg-white {
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+}
+
 /* Responsive */
 @media (min-width: 640px) {
   .sm\:grid-cols-2 {
